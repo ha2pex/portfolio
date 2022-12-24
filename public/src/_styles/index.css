@@ -10,13 +10,14 @@ body {
 }
 
 header {
+	background-color: var(--primary);
 	padding: 0 24px;
 }
 header > img {
 	transform: translate(0, 24px);
 }
 
-#main-icon {
+#main-logo {
 	height: 96px;
 	width: 96px;
 	border-radius: 19.2px;
