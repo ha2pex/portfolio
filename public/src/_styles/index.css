@@ -28,10 +28,13 @@ header > img {
 }
 
 .content {
-	padding: 24px;
+	padding: 12px 24px;
 }
 .section {
-	padding: 24px 0;
+	background-color: var(--background-lighter);
+	padding: 24px;
+	margin: 12px 0;
+	border-radius: 12px;
 }
 footer {
 	padding: 24px;
