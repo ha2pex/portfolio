@@ -1,3 +1,5 @@
+@import url('variables.css');
+
 * {
 	padding: 0;
 	margin: 0;
@@ -21,5 +23,5 @@ header > img {
 	height: 96px;
 	width: 96px;
 	border-radius: 19.2px;
-	outline: 8px solid white;
+	outline: 8px solid var(--background-initial);
 }
