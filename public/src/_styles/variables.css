@@ -1,4 +1,6 @@
 :root {
 	--primary: #3b56ff;
 	--text-initial: #ffffff;
-	--background-initial: #030609;
+	--background-initial: #364a50;
+	--background-lighter: #ffffff40;
+}
