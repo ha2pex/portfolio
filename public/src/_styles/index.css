@@ -14,9 +14,10 @@ body {
 header {
 	background-color: var(--primary);
 	padding: 0 24px;
+	margin-bottom: 48px;
 }
 header > img {
-	transform: translate(0, 24px);
+	transform: translate(0, 48px);
 }
 
 #main-logo {
@@ -24,4 +25,8 @@ header > img {
 	width: 96px;
 	border-radius: 19.2px;
 	outline: 8px solid var(--background-initial);
+}
+
+.content {
+	padding: 24px;
 }
