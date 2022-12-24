@@ -1,0 +1,24 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Roboto, sans-serif;
+}
+
+body {
+	background-color: var(--background-initial);
+	color: var(--text-initial);
+}
+
+header {
+	padding: 0 24px;
+}
+header > img {
+	transform: translate(0, 24px);
+}
+
+#main-icon {
+	height: 96px;
+	width: 96px;
+	border-radius: 19.2px;
+	outline: 8px solid white;
+}
