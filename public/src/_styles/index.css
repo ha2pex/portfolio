@@ -106,3 +106,10 @@ img {
 #happex {
 	width: 256px;
 }
+
+@media (max-width: 480px) {
+	.flex {
+		display: inherit;
+		gap: 0;
+	}
+}
