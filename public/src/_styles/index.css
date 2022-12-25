@@ -59,13 +59,12 @@ a {
 
 .btn > a {
 	color: var(--primary);
-	transform: translate(0, -6px);
 }
 
 .btn img {
 	width: 20px;
 	height: 20px;
-	transform: translate(0, 2px);
+	vertical-align: middle;
 }
 
 .btn-primary {
