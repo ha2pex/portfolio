@@ -59,7 +59,7 @@ a {
 
 .btn > a {
 	color: var(--primary);
-	vertical-align: middle;
+	transform: trabslate(0, 2px);
 }
 
 .btn img {
