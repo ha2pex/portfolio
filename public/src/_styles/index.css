@@ -125,4 +125,8 @@ iframe {
 		width: inherit;
 		margin-bottom: 24px;
 	}
+	
+	.projects {
+		didplay: none;
+	}
 }
