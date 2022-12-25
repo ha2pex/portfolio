@@ -14,7 +14,7 @@ body {
 header {
 	background-color: var(--primary);
 	padding: 0 24px;
-	margin-bottom: 48px;
+	margin-bottom: 72px;
 	text-align: center;
 }
 header > img {
@@ -101,4 +101,8 @@ img {
 .flex {
 	display: flex;
 	gap: 24px;
+}
+
+#about {
+	width: 50%;
 }
