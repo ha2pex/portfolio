@@ -49,6 +49,12 @@ a {
 	color: var(--primary);
 	font-weight: 500;
 }
+img {
+	border-radius: 4px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
 .btn {
 	background-color: white;
 	padding: 8px 16px;
@@ -74,4 +80,14 @@ a {
 }
 .btn-primary > a {
 	color: white;
+}
+
+.icon {
+	height: 20px;
+	width: 20px;
+}
+.emote {
+	height: 16px;
+	width: 16px;
+	transform: translate(0, 2px);
 }
