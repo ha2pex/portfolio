@@ -6,22 +6,22 @@
 h1 {
 	font-weight: 600;
 	font-size: 32px;
-	margin: 24px;
+	margin-bottom: 24px;
 }
 h2 {
 	font-weight: 600;
 	font-size: 24px;
-	margin: 16px;
+	margin-bottom: 16px;
 }
 h3 {
 	font-weight: 500;
 	font-size: 20px;
-	margin: 16px;
+	margin-bottom: 16px;
 	text-transform: capitalize;
 }
 h4 {
 	font-weight: 500;
 	font-size: 16px;
-	margin: 16px;
+	margin-bottom: 16px;
 	text-transform: uppercase;
 }
