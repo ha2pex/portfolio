@@ -93,6 +93,11 @@ img {
 	margin: 24px 0;
 	border-radius: 12px;
 }
+.box {
+	background-color: var(--background-lighter);
+	padding: 24px;
+	border-radius: 12px;
+}
 .flex {
 	display: flex;
 	gap: 24px;
