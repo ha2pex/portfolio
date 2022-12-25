@@ -56,12 +56,12 @@ img {
 	padding: 8px 16px;
 	border-radius: 4px;
 	border: none;
+	animation: btnLinkCenter 0.5s forwards;
 }
 
 .btn > a {
 	color: var(--primary);
 	vertical-align: middle;
-	animation: btnLinkCenter 0.5s forwards;
 }
 
 .btn > img {
@@ -73,7 +73,7 @@ img {
 .btn:hover > img {
 	animation: btnIconAppear 0.5s forwards;
 }
-.btn:hover > a {
+.btn:hover {
 	animation: btnLinkStart 0.5s forwards;
 }
 
@@ -136,18 +136,18 @@ img {
 }
 @keyframes btnLinkCenter {
 	0% {
-		transform: translate(0, 0);
+		text-align: start;
 	}
 	100% {
-		transform: translate(12px, 0);
+		text-align: center;
 	}
 }
 @keyframes btnLinkStart {
 	0% {
-		transform: translate(12px, 0);
+		text-align: center;
 	}
 	100% {
-		transform: transmate(0, 0);
+		text-align: start;
 	}
 }
 
