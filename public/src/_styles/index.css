@@ -62,7 +62,7 @@ a {
 	transform: translate(0, -4px);
 }
 
-.btn > img {
+.btn img {
 	width: 20px;
 	height: 20px;
 	transform: translate(0, 2px);
