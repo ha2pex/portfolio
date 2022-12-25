@@ -60,18 +60,21 @@ img {
 
 .btn > a {
 	color: var(--primary);
-     /*	transform: translate(0, 2px); */
 	vertical-align: middle;
+	animation: btnLinkCenter 0.5s forwards;
 }
 
 .btn > img {
 	width: 20px;
 	height: 20px;
 	vertical-align: middle;
-	animation: btnIconDisappear 0.25s forwards;
+	animation: btnIconDisappear 0.5s forwards;
 }
 .btn:hover > img {
-	animation: btnIconAppear 0.25s forwards;
+	animation: btnIconAppear 0.5s forwards;
+}
+.btn:hover > a {
+	animation: btnTextStart 0.5s forwards;
 }
 
 .btn-primary {
@@ -129,6 +132,22 @@ img {
 	100% {
 		transform: translate(-50%, 0);
 		opacity: 0;
+	}
+}
+@keyframes btnLinkCenter {
+	0% {
+		text-align: start;
+	}
+	100% {
+		text-align: center;
+	}
+}
+@keyframes btnLinkStart {
+	0% {
+		text-align: center;
+	}
+	100% {
+		text-align: start;
 	}
 }
 
