@@ -112,4 +112,9 @@ img {
 		display: inherit;
 		gap: 0;
 	}
+	
+	#happex {
+		width: inherit;
+		margin-bottom: 24px;
+	}
 }
