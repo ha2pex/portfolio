@@ -29,14 +29,9 @@ header > img {
 }
 
 .content {
-	padding: 12px 24px;
+	padding: 0 24px;
 }
-.section {
-	background-color: var(--background-lighter);
-	padding: 24px;
-	margin: 12px 0;
-	border-radius: 12px;
-}
+
 footer {
 	padding: 24px;
 	background-color: var(--background-lighter);
@@ -90,4 +85,15 @@ img {
 	height: 16px;
 	width: 16px;
 	transform: translate(0, 2px);
+}
+
+.section {
+	background-color: var(--background-lighter);
+	padding: 24px;
+	margin: 24px 0;
+	border-radius: 12px;
+}
+.flex {
+	display: flex;
+	gap: 24px;
 }
