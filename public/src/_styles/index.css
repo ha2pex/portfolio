@@ -136,18 +136,18 @@ img {
 }
 @keyframes btnLinkCenter {
 	0% {
-		text-align: start;
+		transform: translate(0, 0);
 	}
 	100% {
-		text-align: center;
+		transform: translate(12px, 0);
 	}
 }
 @keyframes btnLinkStart {
 	0% {
-		text-align: center;
+		transform: translate(12px, 0);
 	}
 	100% {
-		text-align: start;
+		transform: transmate(0, 0);
 	}
 }
 
