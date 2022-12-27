@@ -116,7 +116,10 @@ iframe {
 @media (max-width: 480px) {
 	.flex {
 		display: inherit;
-		flex-direction: column;
+	}
+	.flex > div {
+		width: inherit;
+		margin-bottom: 24px;
 	}
 	
 	#happex {
