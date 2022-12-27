@@ -103,12 +103,12 @@ iframe {
 .flex {
 	display: flex;
 	gap: 24px;
-	grid-template-columns: repeat(2, minmax(0, 1fr));
+	flex-direction: row;
 }
-
 .flex > div {
 	width: 33%;
 }
+
 #happex {
 	width: 256px;
 }
@@ -116,8 +116,7 @@ iframe {
 @media (max-width: 480px) {
 	.flex {
 		display: inherit;
-		gap: 0;
-		grid-template-columns: repeat(1, minmax(0, 1fr));
+		flex-direction: column;
 	}
 	
 	#happex {
