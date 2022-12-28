@@ -107,6 +107,7 @@ iframe {
 }
 .flex > div {
 	width: 33%;
+	margin-bottom: 24px;
 }
 
 #happex {
